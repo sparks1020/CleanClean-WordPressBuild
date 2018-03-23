@@ -34,6 +34,12 @@ if ( ! isset( $content_width ) ) {
 	$content_width = 660;
 }
 
+/* joining style sheets, enqueueing child to class_parents
+*/
+add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+function my_theme_enqueue_styles() {
+    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+	}
 /**
  * Twenty Fifteen only works in WordPress 4.1 or later.
  */

@@ -2,9 +2,9 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="/wp-content/themes/CleanClean/style.css">
-      <link rel="stylesheet" type="text/css" href="/wp-content/themes/CleanClean/CSS/bootstrap.min.css">
-      <link rel="stylesheet" type="text/css" href="/wp-content/themes/CleanClean/CSS/bootstrap-grid.min.css">
-      <link rel="stylesheet" type="text/css" href="/wp-content/themes/CleanClean/CSS/bootstrap-reboot.min.css">
+      <link rel="stylesheet" type="text/css" href="/wp-content/themes/CleanClean/cleancleancss/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="/wp-content/themes/CleanClean/cleancleancss/bootstrap-grid.min.css">
+      <link rel="stylesheet" type="text/css" href="/wp-content/themes/CleanClean/cleancleancss/bootstrap-reboot.min.css">
 </head>
 <body>
   <header class="card-img-top-1">
