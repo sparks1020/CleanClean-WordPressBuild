@@ -22,12 +22,12 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'CleanClean' ); ?></a>
+<div id="page" class="container">
+	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyfifteen' ); ?></a>
 
-	<div id="sidebar" class="sidebar">
-		<header id="masthead" class="site-header" role="banner">
-			<div class="site-branding">
+	<div>
+		<header class="header-wrapper">
+			<div class="row">
 				<?php
 					twentyfifteen_the_custom_logo();
 
@@ -42,11 +42,10 @@
 						<p class="site-description"><?php echo $description; ?></p>
 					<?php endif;
 				?>
-				<button class="secondary-toggle"><?php _e( 'Menu and widgets', 'CleanClean' ); ?></button>
+				<button class="secondary-toggle"><?php _e( 'Menu and widgets', 'twentyfifteen' ); ?></button>
 			</div><!-- .site-branding -->
 		</header><!-- .site-header -->
 
-		<?php get_sidebar(); ?>
 	</div><!-- .sidebar -->
 
 	<div id="content" class="site-content">

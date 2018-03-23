@@ -11,7 +11,7 @@ if ( has_nav_menu( 'primary' ) || has_nav_menu( 'social' ) || is_active_sidebar(
 	<div id="secondary" class="secondary">
 
 		<?php if ( has_nav_menu( 'primary' ) ) : ?>
-			<nav id="site-navigation" class="main-navigation" role="navigation">
+			<nav class="navigation" role="navigation">
 				<?php
 					// Primary navigation menu.
 					wp_nav_menu( array(
